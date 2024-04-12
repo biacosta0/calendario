@@ -1,0 +1,26 @@
+.domingo{
+    color: red;
+}
+
+#dom{
+    color: red;
+}
+table, th, td, tr{
+    border: 1px solid black; /*Aplica borda no calendário*/
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+th{
+    background-color: black; /*Define cor de fundo da célula Seg, Ter, Qua, ....*/
+    color: white;
+}
+
+th, td{
+    width: 80px; /*Configura a largura da coluna*/
+    height: 60px; /*Configura a altura da linha*/
+}
+td{
+    font-size: 40px;
+}
